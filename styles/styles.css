@@ -1,0 +1,61 @@
+@import url(/styles/reset.css);
+
+.body {
+    background-color: rgb(51, 50, 50);
+    font-family: 'Space Grotesk', sans-serif;
+}
+.header-cabecario {
+    display: flex;
+    justify-content: center;
+    
+}
+.header-menu {
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    margin: 1em;
+    font-size: 2em;
+    color: white;
+}
+
+.principal {
+    display: flex;
+    padding: 1em;
+    flex-direction: row;
+}
+.principal-conteudo {
+    margin-top: 2em;
+    padding-left: 1px;
+    text-align: left;
+    
+}
+.titulo-nome{
+    font-family: 'Teko', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    text-align: center;
+}
+.sobre-min {
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+
+}
+.titulo-tecnologias {
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(84, 185, 253);
+    display: flex;
+    justify-content: center;
+    margin: 2em 2em;
+}
+.icons {
+    display: inline;
+    margin: 4em;
+    
+}
+.tecnologias-usadas {
+    display: block;
+    text-align: center;
+}
+.imagem {
+    display: flex;
+    margin-left: 10em;
+}
